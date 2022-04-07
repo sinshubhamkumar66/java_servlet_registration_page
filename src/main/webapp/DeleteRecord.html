@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>delete record</title>
+</head>
+<style>
+h1{
+color:purple;
+text-align:center;
+}
+input[type=submit] {
+  width: 20%;
+  background-color:#45a049;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color:#F97F71 ;
+}
+input[type=text], select {
+  width: 30%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+</style>
+<body>
+<h1>delete record</h1>
+<hr>
+<form action ="delete" method="post">
+enter email for delete record: <input type ="text" name="email"/>
+<input type ="submit" value ="delete"/>
+</form>
+
+</body>
+</html>
